@@ -33,11 +33,11 @@ DURATION_LIMIT = int(getenv("DURATION_LIMIT", 14400)) # 5 hours
 VIDEO_DURATION_LIMIT = int(getenv("VIDEO_DURATION_LIMIT", 14400)) # 5 hours
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002715747653))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002389305159))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6006232114))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "ITZZ_ISTKHAR")
+OWNER_ID = int(getenv("OWNER_ID", 8417510906)
+OWNER_USERNAME = getenv("OWNER_USERNAME", "vip_ankit_121")
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", str(OWNER_ID)).split()))
 
@@ -49,15 +49,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TEAM-ISTKHAR/Gaytri",
+    "https://github.com/rockStar378/Gaytri12",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", "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",
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KavyaBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+F_bzkjjibWY1YzM1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/shree_update")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+HnCZTeyx-YNmYWZk")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
