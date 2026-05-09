@@ -71,8 +71,8 @@ def stream_markup_timer(_, chat_id, played, dur):
          InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
         ],
         [
-         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url="https://t.me/ITZZ_ISTKHAR"),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url="https://t.me/KAVYABOTS"),
+         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url="https://t.me/vip_ankit_121"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url="https://t.me/shree_update"),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -90,8 +90,8 @@ def stream_markup(_, chat_id):
          InlineKeyboardButton(text=_["S_B_3"], url=f"https://t.me/{app.username}?startgroup=true",)
         ],
         [
-         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url="https://t.me/Itzz_Istkhar"),
-         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url="https://t.me/KavyaBots"),
+         InlineKeyboardButton(text="• ᴏᴡɴᴇʀ •", url="https://t.me/vip_ankit_121"),
+         InlineKeyboardButton(text="• ɢʀᴏᴜᴘ •", url="https://t.me/shree_update"),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
